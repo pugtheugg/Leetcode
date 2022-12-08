@@ -1,15 +1,16 @@
 ﻿public class Solution {
     public int RomanToInt(string s) {
-        var correspondingValue = new Dictionary<char, int>();
-		
-        correspondingValue.Add('I', 1);
-        correspondingValue.Add('V', 5);
-        correspondingValue.Add('X', 10);
-        correspondingValue.Add('L', 50);
-        correspondingValue.Add('C', 100);
-        correspondingValue.Add('D', 500);
-        correspondingValue.Add('M', 1000);
-		
+        var correspondingValue = new Dictionary<char, int>
+        {
+            { 'I', 1 },
+            { 'V', 5 },
+            { 'X', 10 },
+            { 'L', 50 },
+            { 'C', 100 },
+            { 'D', 500 },
+            { 'M', 1000 }
+        };
+
         var total = 0;
 		
         for (var i = 0; i < s.Length; i++) 
@@ -33,7 +34,6 @@
             {
                 total += currentVal;
             }
-            Console.WriteLine(total);
         }
 
         return total;
