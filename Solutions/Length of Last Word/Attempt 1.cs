@@ -1,4 +1,6 @@
-﻿public class Solution {
+﻿namespace Length_of_Last_Word;
+
+public partial class Solution {
     public int LengthOfLastWord(string s)
     {
         string[] words = s.Split(' '); // Split the string into words 
@@ -18,7 +20,7 @@
     static void Main(string[] args)
     {
         var s = "a";
-        new Solution().LengthOfLastWord(s);
+        new Length_of_Last_Word.Solution().LengthOfLastWord(s);
     }
     
 }
