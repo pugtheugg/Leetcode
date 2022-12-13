@@ -6,7 +6,7 @@
         char[] charArray = xString.ToCharArray();
         Array.Reverse(charArray);
         
-        var reversedString = new string(charArray);;
+        var reversedString = new string(charArray);
         
         return reversedString == xString;
     }

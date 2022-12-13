@@ -17,9 +17,8 @@
     
     static void Main(string[] args)
     {
-        // Display the number of command line arguments.
         var s = "a";
-        var balls = new Solution().LengthOfLastWord(s);
+        new Solution().LengthOfLastWord(s);
     }
     
 }
