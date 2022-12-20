@@ -23,10 +23,4 @@
         
         return digits;
     }
-    
-    static void Main(string[] args)
-    {
-        var i = new[] {9,9,9,9};
-        new Solution().PlusOne(i);
-    }
 }
