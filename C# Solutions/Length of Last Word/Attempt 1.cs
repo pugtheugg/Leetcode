@@ -1,4 +1,7 @@
-﻿namespace Length_of_Last_Word;
+﻿// 58. Length of Last Word
+// https://leetcode.com/problems/length-of-last-word
+
+namespace Length_of_Last_Word;
 
 public partial class Solution {
     public int LengthOfLastWord(string s)

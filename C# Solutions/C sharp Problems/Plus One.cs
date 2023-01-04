@@ -1,4 +1,9 @@
-﻿public class Solution {
+﻿// 66. Plus One
+// https://leetcode.com/problems/plus-one/
+
+namespace C_sharp_Problems;
+
+public class Plus_One {
     public int[] PlusOne(int[] digits)
     {
         for (var i = digits.Length-1; i >= 0; i--)

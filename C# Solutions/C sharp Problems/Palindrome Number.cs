@@ -1,4 +1,10 @@
-﻿public class Solution {
+﻿// 9. Palindrome Number
+// https://leetcode.com/problems/palindrome-number/
+
+namespace C_sharp_Problems;
+
+public class Palindrome_Number
+{
     public bool IsPalindrome(int x)
     {
         string xString = x.ToString();

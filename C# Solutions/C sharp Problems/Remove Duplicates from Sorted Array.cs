@@ -1,9 +1,13 @@
-﻿public class Solution {
+﻿// 26. Remove Duplicates from Sorted Array
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+namespace C_sharp_Problems;
+
+public class Remove_Duplicates_Array {
     public int RemoveDuplicates(int[] nums)
     {
         var len = nums.Length;
         var k = 0;
-        
         
         for (var i = 0; i < len -1; i++)
         {

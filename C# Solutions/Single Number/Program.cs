@@ -1,4 +1,7 @@
-﻿public class Solution {
+﻿// 136. Single Number
+// https://leetcode.com/problems/single-number
+
+public class Solution {
     public int SingleNumber(int[] nums)
     {
         if (nums.Length == 1)

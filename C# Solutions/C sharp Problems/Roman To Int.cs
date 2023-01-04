@@ -1,4 +1,9 @@
-﻿public class Solution {
+﻿// 13. Roman to Integer
+// https://leetcode.com/problems/roman-to-integer/
+
+namespace C_sharp_Problems;
+
+public class Roman_To_Int {
     public int RomanToInt(string s) {
         var correspondingValue = new Dictionary<char, int>
         {

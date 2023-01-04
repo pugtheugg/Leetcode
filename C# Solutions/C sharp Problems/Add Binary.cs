@@ -1,7 +1,9 @@
 ﻿// 67. Add Binary
 // https://leetcode.com/problems/add-binary
 
-public class Solution {
+namespace C_sharp_Problems;
+
+public class Add_Binary {
     public string AddBinary(string a, string b)
     {
         var result = "";
